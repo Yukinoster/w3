@@ -8,7 +8,7 @@ let myImage = document.querySelector('img');//基本的にletで変数宣言
 myImage.onclick = function() {//mayImageをクリックしたら呼び出してねという意味
   let mySrc = myImage.getAttribute('src');//名前のない関数
   if(mySrc === 'images/firefox-icon.png') {
-    myImage.setAttribute ('src','images/firefox2.png');//画像を入れ替えている
+    myImage.setAttribute ('src','images/myimage.png');//画像を入れ替えている
   } else {
     myImage.setAttribute ('src','images/firefox-icon.png');
   }
